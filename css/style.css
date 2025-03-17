@@ -1242,3 +1242,39 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+/*** RESPONSIVE***/
+
+@media (max-width: 991.98px) {
+    .about .section-title {
+        text-align: center !important;
+    }
+
+    .about .col-lg-7, 
+    .about .col-lg-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .btn {
+        margin: auto;
+        display: inline-block;
+    }
+
+    .about-img {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 767.98px) { /* Adjusts for mobile devices */
+    iframe {
+        width: 300px;
+        height: 168px; /* Keeps a 16:9 aspect ratio */
+    }
+}
+
