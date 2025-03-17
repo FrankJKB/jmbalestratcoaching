@@ -1279,3 +1279,10 @@
     }
 }
 
+@media (min-width: 767.99px) { /* Adjusts for mobile devices */
+    iframe {
+        width: 500px;
+        height: 275px;
+    }
+}
+
