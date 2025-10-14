@@ -486,7 +486,7 @@
 
 .service .service-item:hover .service-img::before {
     height: 100%;
-    background: rgba(6, 65, 203, 0.5);
+    background: rgba(104, 137, 207, 0.4);
 }
 
 .service .service-item .service-img:hover img {
@@ -508,7 +508,7 @@
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: rgba(6, 65, 203, 0.5);
+    background: rgba(41,126,155, 0.5);
     transition: 0.5s;
     z-index: 3;
 }
@@ -557,7 +557,7 @@
     padding-left: 25px;
     cursor: pointer;
     transition: 0.3s;
-    color: #2a71e2;
+    color: #337c9f;
   }
   
   .faq .faq-list i {
@@ -581,7 +581,7 @@
   }
   
   .faq .faq-list .collapsed:hover {
-    color: #2a71e2;
+    color: #337c9f;
   }
   
   .faq .faq-list .collapsed .icon-show {
@@ -862,7 +862,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(#2a71e2, #89abe1);
+    background: linear-gradient(#337c9f, #89abe1);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1118,7 +1118,7 @@
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(#2a71e2, #89abe1);
+    background: linear-gradient(#337c9f, #89abe1);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
