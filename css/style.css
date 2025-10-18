@@ -1273,3 +1273,9 @@
     height: 275px;
   }
 }
+
+@media (max-width: 989px) {
+  .no-fade {
+    transform: none !important; /* remove animation */
+  }
+}
