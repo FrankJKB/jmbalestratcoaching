@@ -651,9 +651,12 @@
 }
 
 .feature .feature-item .feature-icon {
-  display: inline-flex;
   border-radius: 10px;
   transition: 0.5s;
+}
+
+.image-icon {
+  border-radius: 10px;
 }
 
 .feature .feature-item:hover .feature-icon {
